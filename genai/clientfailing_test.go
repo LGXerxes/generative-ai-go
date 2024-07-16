@@ -109,7 +109,7 @@ func TestTwoFunctions(t *testing.T) {
 			Properties: map[string]*Schema{
 				"limit": {
 					Type:        TypeString,
-					Description: "The city and state, e.g. San Francisco, CA",
+					Description: "The limit of the random number",
 				},
 			},
 			Required: []string{"limit"},
